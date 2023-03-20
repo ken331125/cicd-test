@@ -8,6 +8,6 @@
 
     </head>
     <body class="antialiased">
-		<p>CICD テスdddト</p>
+		<p>CICD テスdト</p>
     </body>
 </html>
