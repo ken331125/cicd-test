@@ -9,7 +9,7 @@
     </div>
   </div>
   <div class="row my-3">
-	<p>$count</p>
+	<p>{{ $count }}</p>
     <table class="table" id="quizzes-table">
       <thead class="thead-light">
         <tr>
