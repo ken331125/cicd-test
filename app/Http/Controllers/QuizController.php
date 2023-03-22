@@ -16,6 +16,7 @@ class QuizController extends Controller
     {
         return view('quizzes.index', [
             'quizzes' => Quiz::all(),
+			'count' => Quiz::count(),
         ]);
     }
 
