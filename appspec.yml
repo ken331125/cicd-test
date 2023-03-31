@@ -3,5 +3,9 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
+permissions:
+  - object: /
+    owner: nginx
+    group: ec2-user
 file_exists_behavior: OVERWRITE
 
